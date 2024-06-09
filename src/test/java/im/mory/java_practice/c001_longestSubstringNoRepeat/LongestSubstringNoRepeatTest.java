@@ -19,10 +19,13 @@ class LongestSubstringNoRepeatTest {
     @Test
     @DisplayName("Test Solution")
     void solution() {
-        assertEquals(3, algo.solution("abcabcbb"));
-        assertEquals(1, algo.solution("bbbbb"));
-        assertEquals(3, algo.solution("pwwkew"));
-        assertEquals(0, algo.solution(""));
-        assertEquals(3, algo.solution("dvdf"));
+        assertAll(
+                () -> assertEquals(3, algo.solution("abcabcbb")),
+                () -> assertEquals(1, algo.solution("bbbbb")),
+                () -> assertEquals(2, algo.solution("au")),
+                () -> assertEquals(3, algo.solution("pwwkew")),
+                () -> assertEquals(0, algo.solution("")),
+                () -> assertEquals(3, algo.solution("dvdf"))
+        );
     }
 }

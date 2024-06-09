@@ -1,4 +1,5 @@
 # Java Practice
 
 
-This repo is my fun Java practices. 
+This repo is host for my fun Java practices.
+

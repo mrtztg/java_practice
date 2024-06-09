@@ -1,26 +1,20 @@
 package im.mory.java_practice.c001_longestSubstringNoRepeat;
 
 import java.util.HashMap;
-import java.util.Map;
 
 public class LongestSubstringNoRepeat {
-    public int solution(String str) {
-        if (str.length() <= 1 ) {
-            return str.length();
-        }
-        char[] strArr = str.toCharArray();
-        int windowLength = 0;
-        int maxWindowLength = 0;
-        Map<Character, Void> charsInWindow = new HashMap<>();
-        Character c;
-        for (int windowRight = 1; windowRight < strArr.length; windowRight++) {
-            c = strArr[windowRight];
-            if (!charsInWindow.containsKey(c)) {
-                windowLength++;
-                charsInWindow.put(c, null);
+    public int solution(String s) {
+        var left = 0;
+        var charIndex = new HashMap<Character, Integer>();
+        var maxLength = 0;
+        for (var right = 0; right < s.length(); right++) {
+            Integer latestRightCopyIdx = charIndex.getOrDefault(s.charAt(right), -1);
+            if (latestRightCopyIdx >= left) {
+                left = latestRightCopyIdx + 1;
             }
-            maxWindowLength = Math.max(windowLength, maxWindowLength);
+            charIndex.put(s.charAt(right), right);
+            maxLength = Math.max(maxLength, right - left + 1);
         }
-        return maxWindowLength;
+        return maxLength;
     }
 }
