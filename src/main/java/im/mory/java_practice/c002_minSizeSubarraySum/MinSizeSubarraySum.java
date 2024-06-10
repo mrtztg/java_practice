@@ -1,4 +1,4 @@
-package im.mory.java_practice.c_002_minSizeSubarraySum;
+package im.mory.java_practice.c002_minSizeSubarraySum;
 
 public class MinSizeSubarraySum {
     public int Solution(int target, int[] nums) {
