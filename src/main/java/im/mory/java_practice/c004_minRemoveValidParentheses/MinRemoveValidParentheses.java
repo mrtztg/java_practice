@@ -32,5 +32,6 @@ public class MinRemoveValidParentheses {
                 sb.append(s.charAt(i));
             }
         }
+        return sb.toString();
     }
 }
