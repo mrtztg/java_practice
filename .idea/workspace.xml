@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c88abc4d-9754-442b-814e-7d3736b0db42" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c003_houseRobber/HouseRobber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c003_houseRobber/HouseRobber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c003_houseRobber/HouseRobberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c003_houseRobber/HouseRobberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c004_minRemoveValidParentheses/MinRemoveValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c004_minRemoveValidParentheses/MinRemoveValidParenthesesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -88,6 +87,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="im.mory.java_practice.c004_minRemoveValidParentheses" />
       <recent name="im.mory.java_practice.c_002_minSizeSubarraySum" />
       <recent name="im.mory.java_practice.c001_longestSubstringNoRepeat" />
     </key>
@@ -240,7 +240,7 @@
       <option name="presentableId" value="Default" />
       <updated>1717943885791</updated>
       <workItem from="1717943886985" duration="10961000" />
-      <workItem from="1717960093281" duration="9222000" />
+      <workItem from="1717960093281" duration="9668000" />
     </task>
     <servers />
   </component>
