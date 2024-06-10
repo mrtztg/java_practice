@@ -16,9 +16,9 @@ class MinSizeSubarraySumTest {
     @Test
     void testSolution() {
         assertAll(
-                () -> assertEquals(2, m.Solution(7, new int[]{2,3,1,2,4,3})),
-                () -> assertEquals(1, m.Solution(4, new int[]{1,4,4})),
-                () -> assertEquals(0, m.Solution(11, new int[]{1,1,1,1,1,1,1,1}))
+                () -> assertEquals(2, m.solution(7, new int[]{2,3,1,2,4,3})),
+                () -> assertEquals(1, m.solution(4, new int[]{1,4,4})),
+                () -> assertEquals(0, m.solution(11, new int[]{1,1,1,1,1,1,1,1}))
         );
     }
 }
