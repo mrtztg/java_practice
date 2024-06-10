@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c88abc4d-9754-442b-814e-7d3736b0db42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c004_minRemoveValidParentheses/MinRemoveValidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c004_minRemoveValidParentheses/MinRemoveValidParenthesesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c002_minSizeSubarraySum/MinSizeSubarraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c002_minSizeSubarraySum/MinSizeSubarraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c003_houseRobber/HouseRobber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c003_houseRobber/HouseRobber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c004_minRemoveValidParentheses/MinRemoveValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c004_minRemoveValidParentheses/MinRemoveValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c002_minSizeSubarraySum/MinSizeSubarraySumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c002_minSizeSubarraySum/MinSizeSubarraySumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c003_houseRobber/HouseRobberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c003_houseRobber/HouseRobberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c004_minRemoveValidParentheses/MinRemoveValidParenthesesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c004_minRemoveValidParentheses/MinRemoveValidParenthesesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +64,7 @@
     "Gradle.HouseRobberTest.executor": "Run",
     "Gradle.LongestSubstringNoRepeatTest.executor": "Run",
     "Gradle.LongestSubstringNoRepeatTest.solution.executor": "Run",
+    "Gradle.MinRemoveValidParenthesesTest.executor": "Run",
     "Gradle.MinSizeSubarraySumTest.executor": "Run",
     "Gradle.Tests in 'im.mory.java_practice.c001_longestSubstringNoRepeat'.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -67,7 +73,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "challenge/houseRobber",
+    "git-widget-placeholder": "challenge/minRemoveValidParentheses",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -92,7 +98,7 @@
       <recent name="im.mory.java_practice.c001_longestSubstringNoRepeat" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.HouseRobberTest">
+  <component name="RunManager" selected="Gradle.MinRemoveValidParenthesesTest">
     <configuration name="HouseRobberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -165,6 +171,30 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="MinRemoveValidParenthesesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;im.mory.java_practice.c004_minRemoveValidParentheses.MinRemoveValidParenthesesTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="MinSizeSubarraySumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -189,37 +219,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'im.mory.java_practice.c001_longestSubstringNoRepeat'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;im.mory.java_practice.c001_longestSubstringNoRepeat.*&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MinRemoveValidParenthesesTest" />
         <item itemvalue="Gradle.HouseRobberTest" />
         <item itemvalue="Gradle.MinSizeSubarraySumTest" />
         <item itemvalue="Gradle.LongestSubstringNoRepeatTest.solution" />
         <item itemvalue="Gradle.LongestSubstringNoRepeatTest" />
-        <item itemvalue="Gradle.Tests in 'im.mory.java_practice.c001_longestSubstringNoRepeat'" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +246,7 @@
       <option name="presentableId" value="Default" />
       <updated>1717943885791</updated>
       <workItem from="1717943886985" duration="10961000" />
-      <workItem from="1717960093281" duration="9668000" />
+      <workItem from="1717960093281" duration="17648000" />
     </task>
     <servers />
   </component>
@@ -260,6 +266,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/im/mory/java_practice/c001_longestSubstringNoRepeat/LongestSubstringNoRepeat.java</url>
           <line>18</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/im/mory/java_practice/c004_minRemoveValidParentheses/MinRemoveValidParentheses.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,7 +1,7 @@
 package im.mory.java_practice.c002_minSizeSubarraySum;
 
 public class MinSizeSubarraySum {
-    public int Solution(int target, int[] nums) {
+    public int solution(int target, int[] nums) {
         //7
         //min=2
         // 2 3 1 2 |4 3|

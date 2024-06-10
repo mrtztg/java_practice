@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HouseRobber {
-    public int Solution(int[] nums) {
+    public int solution(int[] nums) {
         if (nums.length == 0) return 0;
         if (nums.length == 1) return nums[0];
         List<Integer> vals = new ArrayList<>();
