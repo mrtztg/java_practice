@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c88abc4d-9754-442b-814e-7d3736b0db42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c_002_minSizeSubarraySum/MinSizeSubarraySumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c003_houseRobber/HouseRobber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c003_houseRobber/HouseRobberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c_002_minSizeSubarraySum/MinSizeSubarraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c_002_minSizeSubarraySum/MinSizeSubarraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c_002_minSizeSubarraySum/MinSizeSubarraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c002_minSizeSubarraySum/MinSizeSubarraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c_002_minSizeSubarraySum/MinSizeSubarraySumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c002_minSizeSubarraySum/MinSizeSubarraySumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,6 +44,9 @@
     &quot;accountId&quot;: &quot;32699fef-96b6-41ec-a19b-bab778d179b8&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/lib/src.zip!/java.base/java/util/HashMap.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -72,7 +76,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -208,7 +212,7 @@
       <option name="presentableId" value="Default" />
       <updated>1717943885791</updated>
       <workItem from="1717943886985" duration="10961000" />
-      <workItem from="1717960093281" duration="3996000" />
+      <workItem from="1717960093281" duration="5587000" />
     </task>
     <servers />
   </component>

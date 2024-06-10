@@ -1,6 +1,5 @@
-package im.mory.java_practice.c_002_minSizeSubarraySum;
+package im.mory.java_practice.c002_minSizeSubarraySum;
 
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
