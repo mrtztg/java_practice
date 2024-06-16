@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c88abc4d-9754-442b-814e-7d3736b0db42" name="Changes" comment="" />
+    <list default="true" id="c88abc4d-9754-442b-814e-7d3736b0db42" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c007_reverseVowels/ReverseVowels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c007_reverseVowels/ReverseVowelsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,6 +74,7 @@
     "Gradle.MinRemoveValidParenthesesTest.executor": "Run",
     "Gradle.MinSizeSubarraySumTest.executor": "Run",
     "Gradle.PangramTest.executor": "Run",
+    "Gradle.ReverseVowelsTest.executor": "Run",
     "Gradle.Search2dMatrixTest.testSolution.executor": "Run",
     "Gradle.Tests in 'im.mory.java_practice.c001_longestSubstringNoRepeat'.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -68,7 +83,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "challenge/search2dMatrix",
+    "git-widget-placeholder": "challenge/solve__challenges",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -88,14 +103,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="im.mory.java_practice.c007_reverseVowels" />
       <recent name="im.mory.java_practice.c006_pangram" />
       <recent name="im.mory.java_practice.c006_containsDuplicates" />
       <recent name="im.mory.java_practice.c005_search2dMatrix" />
       <recent name="im.mory.java_practice.c004_minRemoveValidParentheses" />
-      <recent name="im.mory.java_practice.c_002_minSizeSubarraySum" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PangramTest">
+  <component name="RunManager" selected="Gradle.ReverseVowelsTest">
     <configuration name="ContainsDuplicatesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -110,30 +125,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;im.mory.java_practice.c006_containsDuplicates.ContainsDuplicatesTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="HouseRobberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;im.mory.java_practice.c003_houseRobber.HouseRobberTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -192,6 +183,30 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="ReverseVowelsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;im.mory.java_practice.c007_reverseVowels.ReverseVowelsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="Search2dMatrixTest.testSolution" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -218,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ReverseVowelsTest" />
         <item itemvalue="Gradle.PangramTest" />
         <item itemvalue="Gradle.ContainsDuplicatesTest" />
         <item itemvalue="Gradle.Search2dMatrixTest.testSolution" />
         <item itemvalue="Gradle.MinRemoveValidParenthesesTest" />
-        <item itemvalue="Gradle.HouseRobberTest" />
       </list>
     </recent_temporary>
   </component>
