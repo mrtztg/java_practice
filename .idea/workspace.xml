@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c88abc4d-9754-442b-814e-7d3736b0db42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c006_containsDuplicates/ContainsDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c006_containsDuplicates/ContainsDuplicatesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c006_pangram/Pangram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c006_pangram/PangramTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c006_containsDuplicates/ContainsDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c006_containsDuplicates/ContainsDuplicates.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +64,7 @@
     "Gradle.LongestSubstringNoRepeatTest.solution.executor": "Run",
     "Gradle.MinRemoveValidParenthesesTest.executor": "Run",
     "Gradle.MinSizeSubarraySumTest.executor": "Run",
+    "Gradle.PangramTest.executor": "Run",
     "Gradle.Search2dMatrixTest.testSolution.executor": "Run",
     "Gradle.Tests in 'im.mory.java_practice.c001_longestSubstringNoRepeat'.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -91,14 +93,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="im.mory.java_practice.c006_pangram" />
       <recent name="im.mory.java_practice.c006_containsDuplicates" />
       <recent name="im.mory.java_practice.c005_search2dMatrix" />
       <recent name="im.mory.java_practice.c004_minRemoveValidParentheses" />
       <recent name="im.mory.java_practice.c_002_minSizeSubarraySum" />
-      <recent name="im.mory.java_practice.c001_longestSubstringNoRepeat" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ContainsDuplicatesTest">
+  <component name="RunManager" selected="Gradle.PangramTest">
     <configuration name="ContainsDuplicatesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -171,7 +173,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="MinSizeSubarraySumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PangramTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -184,7 +186,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;im.mory.java_practice.c_002_minSizeSubarraySum.MinSizeSubarraySumTest&quot;" />
+            <option value="&quot;im.mory.java_practice.c006_pangram.PangramTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -221,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PangramTest" />
         <item itemvalue="Gradle.ContainsDuplicatesTest" />
         <item itemvalue="Gradle.Search2dMatrixTest.testSolution" />
         <item itemvalue="Gradle.MinRemoveValidParenthesesTest" />
         <item itemvalue="Gradle.HouseRobberTest" />
-        <item itemvalue="Gradle.MinSizeSubarraySumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +250,7 @@
       <workItem from="1717943886985" duration="10961000" />
       <workItem from="1717960093281" duration="28088000" />
       <workItem from="1718032088980" duration="1316000" />
-      <workItem from="1718452156837" duration="1032000" />
+      <workItem from="1718452156837" duration="2933000" />
     </task>
     <servers />
   </component>
