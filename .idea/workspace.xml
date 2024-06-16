@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c88abc4d-9754-442b-814e-7d3736b0db42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c006_pangram/Pangram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c006_pangram/PangramTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c006_containsDuplicates/ContainsDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c006_containsDuplicates/ContainsDuplicates.java" afterDir="false" />
-    </list>
+    <list default="true" id="c88abc4d-9754-442b-814e-7d3736b0db42" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -250,7 +245,7 @@
       <workItem from="1717943886985" duration="10961000" />
       <workItem from="1717960093281" duration="28088000" />
       <workItem from="1718032088980" duration="1316000" />
-      <workItem from="1718452156837" duration="2933000" />
+      <workItem from="1718452156837" duration="3246000" />
     </task>
     <servers />
   </component>
