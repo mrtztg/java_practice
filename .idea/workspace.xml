@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c88abc4d-9754-442b-814e-7d3736b0db42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c008_validPalindrome/ValidPalindromeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c009_validAnagram/ValidAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c009_validAnagram/ValidAnagramTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c008_validPalindrome/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c008_validPalindrome/ValidPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +77,7 @@
     "Gradle.ReverseVowelsTest.executor": "Run",
     "Gradle.Search2dMatrixTest.testSolution.executor": "Run",
     "Gradle.Tests in 'im.mory.java_practice.c001_longestSubstringNoRepeat'.executor": "Run",
+    "Gradle.ValidAnagramTest.executor": "Run",
     "Gradle.ValidPalindromeTest.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -104,14 +105,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="im.mory.java_practice.c009_validAnagram" />
       <recent name="im.mory.java_practice.c008_validPalindrome" />
       <recent name="im.mory.java_practice.c007_reverseVowels" />
       <recent name="im.mory.java_practice.c006_pangram" />
       <recent name="im.mory.java_practice.c006_containsDuplicates" />
-      <recent name="im.mory.java_practice.c005_search2dMatrix" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ValidPalindromeTest">
+  <component name="RunManager" selected="Gradle.ValidAnagramTest">
     <configuration name="ContainsDuplicatesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -184,7 +185,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Search2dMatrixTest.testSolution" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ValidAnagramTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -197,7 +198,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;im.mory.java_practice.c005_search2dMatrix.Search2dMatrixTest.testSolution&quot;" />
+            <option value="&quot;im.mory.java_practice.c009_validAnagram.ValidAnagramTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -234,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ValidAnagramTest" />
         <item itemvalue="Gradle.ValidPalindromeTest" />
         <item itemvalue="Gradle.ReverseVowelsTest" />
         <item itemvalue="Gradle.PangramTest" />
         <item itemvalue="Gradle.ContainsDuplicatesTest" />
-        <item itemvalue="Gradle.Search2dMatrixTest.testSolution" />
       </list>
     </recent_temporary>
   </component>
