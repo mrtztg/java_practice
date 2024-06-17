@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c88abc4d-9754-442b-814e-7d3736b0db42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c009_validAnagram/ValidAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c009_validAnagram/ValidAnagramTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch002NumGoodPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c010batch_challenges/Ch002NumGoodPairsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +67,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.Ch001_ShortestWordsDistanceTest.solution.executor": "Run",
+    "Gradle.Ch002NumGoodPairsTest.executor": "Run",
     "Gradle.ContainsDuplicatesTest.executor": "Run",
     "Gradle.HouseRobberTest.executor": "Run",
     "Gradle.LongestSubstringNoRepeatTest.executor": "Run",
@@ -105,15 +107,15 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="im.mory.java_practice.c010batch_challenges" />
       <recent name="im.mory.java_practice.c009_validAnagram" />
       <recent name="im.mory.java_practice.c008_validPalindrome" />
       <recent name="im.mory.java_practice.c007_reverseVowels" />
       <recent name="im.mory.java_practice.c006_pangram" />
-      <recent name="im.mory.java_practice.c006_containsDuplicates" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ValidAnagramTest">
-    <configuration name="ContainsDuplicatesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.Ch002NumGoodPairsTest">
+    <configuration name="Ch001_ShortestWordsDistanceTest.solution" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -126,7 +128,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;im.mory.java_practice.c006_containsDuplicates.ContainsDuplicatesTest&quot;" />
+            <option value="&quot;im.mory.java_practice.c010batch_challenges.Ch001_ShortestWordsDistanceTest.solution&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -137,7 +139,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="PangramTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Ch002NumGoodPairsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -150,7 +152,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;im.mory.java_practice.c006_pangram.PangramTest&quot;" />
+            <option value="&quot;im.mory.java_practice.c010batch_challenges.Ch002NumGoodPairsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -235,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Ch002NumGoodPairsTest" />
+        <item itemvalue="Gradle.Ch001_ShortestWordsDistanceTest.solution" />
         <item itemvalue="Gradle.ValidAnagramTest" />
         <item itemvalue="Gradle.ValidPalindromeTest" />
         <item itemvalue="Gradle.ReverseVowelsTest" />
-        <item itemvalue="Gradle.PangramTest" />
-        <item itemvalue="Gradle.ContainsDuplicatesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -263,6 +265,7 @@
       <workItem from="1717960093281" duration="28088000" />
       <workItem from="1718032088980" duration="1316000" />
       <workItem from="1718452156837" duration="3246000" />
+      <workItem from="1718604316808" duration="4003000" />
     </task>
     <servers />
   </component>
