@@ -19,8 +19,6 @@ arr is sorted in non-decreasing order.
 
 */
 
-import java.util.Arrays;
-
 public class Ch006SquareSortedArray {
     int[] solution(int[] arr) {
         int left = 0, right = arr.length - 1;
