@@ -1,7 +1,6 @@
 package im.mory.java_practice.c009_validAnagram;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
 
 public class ValidAnagram {
