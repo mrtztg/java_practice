@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c88abc4d-9754-442b-814e-7d3736b0db42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch004PairWithTargetSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c010batch_challenges/Ch004PairWithTargetSumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch005FindNonDuplicateNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch006SquareSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c010batch_challenges/Ch005FindNonDuplicateNumbersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c010batch_challenges/Ch006SquareSortedArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +73,8 @@
     "Gradle.Ch002NumGoodPairsTest.executor": "Run",
     "Gradle.Ch003SqrtTest.executor": "Run",
     "Gradle.Ch004PairWithTargetSumTest.executor": "Run",
+    "Gradle.Ch005FindNonDuplicateNumbersTest.executor": "Run",
+    "Gradle.Ch006SquareSortedArrayTest.executor": "Run",
     "Gradle.ContainsDuplicatesTest.executor": "Run",
     "Gradle.HouseRobberTest.executor": "Run",
     "Gradle.LongestSubstringNoRepeatTest.executor": "Run",
@@ -116,31 +120,7 @@
       <recent name="im.mory.java_practice.c006_pangram" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Ch004PairWithTargetSumTest">
-    <configuration name="Ch001_ShortestWordsDistanceTest.solution" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;im.mory.java_practice.c010batch_challenges.Ch001_ShortestWordsDistanceTest.solution&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.Ch006SquareSortedArrayTest">
     <configuration name="Ch002NumGoodPairsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -213,7 +193,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ValidAnagramTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Ch005FindNonDuplicateNumbersTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -226,7 +206,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;im.mory.java_practice.c009_validAnagram.ValidAnagramTest&quot;" />
+            <option value="&quot;im.mory.java_practice.c010batch_challenges.Ch005FindNonDuplicateNumbersTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Ch006SquareSortedArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;im.mory.java_practice.c010batch_challenges.Ch006SquareSortedArrayTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -239,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Ch006SquareSortedArrayTest" />
+        <item itemvalue="Gradle.Ch005FindNonDuplicateNumbersTest" />
         <item itemvalue="Gradle.Ch004PairWithTargetSumTest" />
         <item itemvalue="Gradle.Ch003SqrtTest" />
         <item itemvalue="Gradle.Ch002NumGoodPairsTest" />
-        <item itemvalue="Gradle.Ch001_ShortestWordsDistanceTest.solution" />
-        <item itemvalue="Gradle.ValidAnagramTest" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +271,7 @@
       <workItem from="1717960093281" duration="28088000" />
       <workItem from="1718032088980" duration="1316000" />
       <workItem from="1718452156837" duration="3246000" />
-      <workItem from="1718604316808" duration="12008000" />
+      <workItem from="1718604316808" duration="16397000" />
     </task>
     <servers />
   </component>
