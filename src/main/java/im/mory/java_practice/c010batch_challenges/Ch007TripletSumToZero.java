@@ -24,7 +24,7 @@ Constraints:
 */
 
 public class Ch007TripletSumToZero {
-    List<List<Integer>> solution(int[] arr) {
+    List<List<Integer>> solution2(int[] arr) { // Wrong solution
         List<List<Integer>> triples = new ArrayList<>();
         for (int i = 0; i < arr.length; i++) {
             for (int j = i + 1; j < arr.length; j++) {
@@ -38,7 +38,7 @@ public class Ch007TripletSumToZero {
         return triples;
     }
 
-    List<List<Integer>> solution2(int[] arr) {
+    List<List<Integer>> solution(int[] arr) {
         Arrays.sort(arr);
         List<List<Integer>> triples = new ArrayList<>();
         for (int left = 0; left < arr.length - 2; left++) {
