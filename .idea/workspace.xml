@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c88abc4d-9754-442b-814e-7d3736b0db42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch009MiddleOfLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c010batch_challenges/Ch009MiddleOfLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch010StartOfLinkedListCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c010batch_challenges/Ch010StartOfLinkedListCycleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch009MiddleOfLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch009MiddleOfLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -67,6 +69,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.Build java_practice.executor": "Run",
     "Gradle.Ch001_ShortestWordsDistanceTest.solution.executor": "Run",
     "Gradle.Ch002NumGoodPairsTest.executor": "Run",
     "Gradle.Ch003SqrtTest.executor": "Run",
@@ -75,7 +78,8 @@
     "Gradle.Ch006SquareSortedArrayTest.executor": "Run",
     "Gradle.Ch007TripletSumToZeroTest.executor": "Run",
     "Gradle.Ch008TripleSumCloseToTargetTest.executor": "Run",
-    "Gradle.Ch009MiddleOfLinkedListTest.executor": "Run",
+    "Gradle.Ch009MiddleOfLinkedListTest.executor": "Debug",
+    "Gradle.Ch010StartOfLinkedListCycleTest.executor": "Run",
     "Gradle.ContainsDuplicatesTest.executor": "Run",
     "Gradle.HouseRobberTest.executor": "Run",
     "Gradle.LongestSubstringNoRepeatTest.executor": "Run",
@@ -113,6 +117,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="im.mory.java_practice.c010batch_challenges" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="im.mory.java_practice.c010batch_challenges" />
       <recent name="im.mory.java_practice.c009_validAnagram" />
@@ -121,7 +128,7 @@
       <recent name="im.mory.java_practice.c006_pangram" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Ch009MiddleOfLinkedListTest">
+  <component name="RunManager" selected="Gradle.Ch010StartOfLinkedListCycleTest">
     <configuration name="Ch007TripletSumToZeroTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -194,8 +201,33 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="Ch010StartOfLinkedListCycleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;im.mory.java_practice.c010batch_challenges.Ch010StartOfLinkedListCycleTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Ch010StartOfLinkedListCycleTest" />
         <item itemvalue="Gradle.Ch009MiddleOfLinkedListTest" />
         <item itemvalue="Gradle.Ch008TripleSumCloseToTargetTest" />
         <item itemvalue="Gradle.Ch007TripletSumToZeroTest" />
@@ -224,7 +256,8 @@
       <workItem from="1718452156837" duration="3246000" />
       <workItem from="1718604316808" duration="21298000" />
       <workItem from="1718647383650" duration="11369000" />
-      <workItem from="1718714133715" duration="2289000" />
+      <workItem from="1718714133715" duration="7968000" />
+      <workItem from="1718723262032" duration="317000" />
     </task>
     <servers />
   </component>
@@ -269,6 +302,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch008TripleSumCloseToTarget.java</url>
           <line>41</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch010StartOfLinkedListCycle.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
