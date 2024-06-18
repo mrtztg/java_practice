@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c88abc4d-9754-442b-814e-7d3736b0db42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch008TripleSumCloseToTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c010batch_challenges/Ch008TripleSumCloseToTargetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch009MiddleOfLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c010batch_challenges/Ch009MiddleOfLinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch007TripletSumToZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch007TripletSumToZero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c010batch_challenges/Ch007TripletSumToZeroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c010batch_challenges/Ch007TripletSumToZeroTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +75,7 @@
     "Gradle.Ch006SquareSortedArrayTest.executor": "Run",
     "Gradle.Ch007TripletSumToZeroTest.executor": "Run",
     "Gradle.Ch008TripleSumCloseToTargetTest.executor": "Run",
+    "Gradle.Ch009MiddleOfLinkedListTest.executor": "Run",
     "Gradle.ContainsDuplicatesTest.executor": "Run",
     "Gradle.HouseRobberTest.executor": "Run",
     "Gradle.LongestSubstringNoRepeatTest.executor": "Run",
@@ -122,7 +121,7 @@
       <recent name="im.mory.java_practice.c006_pangram" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Ch008TripleSumCloseToTargetTest">
+  <component name="RunManager" selected="Gradle.Ch009MiddleOfLinkedListTest">
     <configuration name="Ch007TripletSumToZeroTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -171,8 +170,33 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="Ch009MiddleOfLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;im.mory.java_practice.c010batch_challenges.Ch009MiddleOfLinkedListTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Ch009MiddleOfLinkedListTest" />
         <item itemvalue="Gradle.Ch008TripleSumCloseToTargetTest" />
         <item itemvalue="Gradle.Ch007TripletSumToZeroTest" />
       </list>
@@ -199,7 +223,8 @@
       <workItem from="1718032088980" duration="1316000" />
       <workItem from="1718452156837" duration="3246000" />
       <workItem from="1718604316808" duration="21298000" />
-      <workItem from="1718647383650" duration="10077000" />
+      <workItem from="1718647383650" duration="11369000" />
+      <workItem from="1718714133715" duration="2289000" />
     </task>
     <servers />
   </component>
