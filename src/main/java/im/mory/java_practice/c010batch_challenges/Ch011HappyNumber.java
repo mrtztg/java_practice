@@ -3,15 +3,11 @@ package im.mory.java_practice.c010batch_challenges;
 public class Ch011HappyNumber {
     public boolean find(int num) {
         int slow = num, fast = num;
-        while (slow != 1 || fast != 1) {
+        do{
             slow = squareOfNums(slow);
-            fast = squareOfNums(fast);
-            fast = squareOfNums(fast);
-            if (fast == slow) {
-                return false;
-            }
-        }
-        return true;
+            fast = squareOfNums(squareOfNums(fast));
+        } while (slow != fast);
+        return slow == 1;
     }
 
     private int squareOfNums(int num) {

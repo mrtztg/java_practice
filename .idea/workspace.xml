@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c88abc4d-9754-442b-814e-7d3736b0db42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch011HappyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c010batch_challenges/Ch011HappyNumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch011HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch011HappyNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
     "Gradle.Ch008TripleSumCloseToTargetTest.executor": "Run",
     "Gradle.Ch009MiddleOfLinkedListTest.executor": "Debug",
     "Gradle.Ch010StartOfLinkedListCycleTest.executor": "Run",
-    "Gradle.Ch011HappyNumberTest.executor": "Debug",
+    "Gradle.Ch011HappyNumberTest.executor": "Run",
     "Gradle.ContainsDuplicatesTest.executor": "Run",
     "Gradle.HouseRobberTest.executor": "Run",
     "Gradle.LongestSubstringNoRepeatTest.executor": "Run",
@@ -281,7 +280,7 @@
       <workItem from="1718604316808" duration="21298000" />
       <workItem from="1718647383650" duration="11369000" />
       <workItem from="1718714133715" duration="7968000" />
-      <workItem from="1718723262032" duration="3997000" />
+      <workItem from="1718723262032" duration="4937000" />
     </task>
     <servers />
   </component>
@@ -336,11 +335,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch011HappyNumber.java</url>
           <line>4</line>
           <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch011HappyNumber.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
