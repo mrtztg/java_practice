@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c88abc4d-9754-442b-814e-7d3736b0db42" name="Changes" comment="feat: Add Ch013SmallestSubarrayWithGreaterSum and its test files.">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch014LongestSubstringKDistinctCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c010batch_challenges/Ch014LongestSubstringKDistinctCharacterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch013SmallestSubarrayWithGreaterSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch013SmallestSubarrayWithGreaterSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +81,7 @@
     "Gradle.Ch011HappyNumberTest.executor": "Run",
     "Gradle.Ch012MaxSumSubarrayKTest.executor": "Run",
     "Gradle.Ch013SmallestSubarrayWithGreaterSumTest.executor": "Debug",
+    "Gradle.Ch014LongestSubstringKDistinctCharacterTest.executor": "Run",
     "Gradle.ContainsDuplicatesTest.executor": "Run",
     "Gradle.HouseRobberTest.executor": "Run",
     "Gradle.LongestSubstringNoRepeatTest.executor": "Run",
@@ -129,31 +130,7 @@
       <recent name="im.mory.java_practice.c006_pangram" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Ch013SmallestSubarrayWithGreaterSumTest">
-    <configuration name="Ch009MiddleOfLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;im.mory.java_practice.c010batch_challenges.Ch009MiddleOfLinkedListTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.Ch014LongestSubstringKDistinctCharacterTest">
     <configuration name="Ch010StartOfLinkedListCycleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -250,13 +227,37 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="Ch014LongestSubstringKDistinctCharacterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;im.mory.java_practice.c010batch_challenges.Ch014LongestSubstringKDistinctCharacterTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Ch014LongestSubstringKDistinctCharacterTest" />
         <item itemvalue="Gradle.Ch013SmallestSubarrayWithGreaterSumTest" />
         <item itemvalue="Gradle.Ch012MaxSumSubarrayKTest" />
         <item itemvalue="Gradle.Ch011HappyNumberTest" />
         <item itemvalue="Gradle.Ch010StartOfLinkedListCycleTest" />
-        <item itemvalue="Gradle.Ch009MiddleOfLinkedListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +284,7 @@
       <workItem from="1718604316808" duration="21298000" />
       <workItem from="1718647383650" duration="11369000" />
       <workItem from="1718714133715" duration="7968000" />
-      <workItem from="1718723262032" duration="27332000" />
+      <workItem from="1718723262032" duration="32437000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Add Ch013SmallestSubarrayWithGreaterSum and its test files.">
       <option name="closed" value="true" />
@@ -356,6 +357,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch013SmallestSubarrayWithGreaterSum.java</url>
           <line>7</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch014LongestSubstringKDistinctCharacter.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
