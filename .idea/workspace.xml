@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c88abc4d-9754-442b-814e-7d3736b0db42" name="Changes" comment="feat: Add Ch013SmallestSubarrayWithGreaterSum and its test files.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch014LongestSubstringKDistinctCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c010batch_challenges/Ch014LongestSubstringKDistinctCharacterTest.java" afterDir="false" />
+    <list default="true" id="c88abc4d-9754-442b-814e-7d3736b0db42" name="Changes" comment="feat: Add Ch014LongestSubstringKDistinctCharacter and its test files.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/im/mory/java_practice/c010batch_challenges/Ch015FruitsIntoBaskets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/im/mory/java_practice/c010batch_challenges/Ch015FruitsIntoBasketsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,8 @@
     "Gradle.Ch011HappyNumberTest.executor": "Run",
     "Gradle.Ch012MaxSumSubarrayKTest.executor": "Run",
     "Gradle.Ch013SmallestSubarrayWithGreaterSumTest.executor": "Debug",
-    "Gradle.Ch014LongestSubstringKDistinctCharacterTest.executor": "Run",
+    "Gradle.Ch014LongestSubstringKDistinctCharacterTest.executor": "Debug",
+    "Gradle.Ch015FruitsIntoBasketsTest.executor": "Run",
     "Gradle.ContainsDuplicatesTest.executor": "Run",
     "Gradle.HouseRobberTest.executor": "Run",
     "Gradle.LongestSubstringNoRepeatTest.executor": "Run",
@@ -130,31 +131,7 @@
       <recent name="im.mory.java_practice.c006_pangram" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Ch014LongestSubstringKDistinctCharacterTest">
-    <configuration name="Ch010StartOfLinkedListCycleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;im.mory.java_practice.c010batch_challenges.Ch010StartOfLinkedListCycleTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.Ch015FruitsIntoBasketsTest">
     <configuration name="Ch011HappyNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -251,13 +228,37 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="Ch015FruitsIntoBasketsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;im.mory.java_practice.c010batch_challenges.Ch015FruitsIntoBasketsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Ch015FruitsIntoBasketsTest" />
         <item itemvalue="Gradle.Ch014LongestSubstringKDistinctCharacterTest" />
         <item itemvalue="Gradle.Ch013SmallestSubarrayWithGreaterSumTest" />
         <item itemvalue="Gradle.Ch012MaxSumSubarrayKTest" />
         <item itemvalue="Gradle.Ch011HappyNumberTest" />
-        <item itemvalue="Gradle.Ch010StartOfLinkedListCycleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +285,7 @@
       <workItem from="1718604316808" duration="21298000" />
       <workItem from="1718647383650" duration="11369000" />
       <workItem from="1718714133715" duration="7968000" />
-      <workItem from="1718723262032" duration="32437000" />
+      <workItem from="1718723262032" duration="39160000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Add Ch013SmallestSubarrayWithGreaterSum and its test files.">
       <option name="closed" value="true" />
@@ -294,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718741935905</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: Add Ch014LongestSubstringKDistinctCharacter and its test files.">
+      <option name="closed" value="true" />
+      <created>1718876640180</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718876640180</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +311,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: Add Ch013SmallestSubarrayWithGreaterSum and its test files." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Add Ch013SmallestSubarrayWithGreaterSum and its test files." />
+    <MESSAGE value="feat: Add Ch014LongestSubstringKDistinctCharacter and its test files." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Add Ch014LongestSubstringKDistinctCharacter and its test files." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
